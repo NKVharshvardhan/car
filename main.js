@@ -16,9 +16,9 @@ car2_image="car2.png";
 background_image="background.png";
 
 function add(){
-    background_imgtag=new Image();
-background_imgtag.onload=uploadBackground;
-background_imgtag.src=background_image;
+    background_imgTag=new Image();
+background_imgTag.onload=uploadBackground;
+background_imgTag.src=background_image;
 
 car1_imgtag=new Image();
 car1_imgtag.onload=uploadcar1;
@@ -31,7 +31,7 @@ car2_imgtag.src=car2_image;
 }
 
 function uploadBackground(){
-    ctx.drawImage(background_imgtag,0,0,canvas.width,canvas.height);
+    ctx.drawImage(background_imgTag,0,0,canvas.width,canvas.height);
 
 }
 
